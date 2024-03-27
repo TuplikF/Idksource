@@ -1,2 +1,3 @@
-This is only backup
-Project can be in near future changed
+This is the beginning of my OS.
+Everything you see here may be changed in the near future.
+Idksource is just a temporary name that will probably be changed because I couldn't think of anything else.
