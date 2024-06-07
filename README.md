@@ -13,4 +13,4 @@ If you see something wrong please correct me in the Discussions.
 
 
 
-Idksourceje licencováno pod CC BY 4.0© 2 od Tuplik_F 
+This work © 2 by TuplikF is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
