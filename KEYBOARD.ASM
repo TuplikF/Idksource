@@ -1,25 +1,25 @@
 section .data
-    buffer db 0 ; místo pro uložení vstupu
+    buffer db 0 ; place to save the input
 
 section .text
     global _start
 
 _start:
-    ; Čtení vstupu z klávesnice
-    mov eax, 3 ; syscall pro read
-    mov ebx, 0 ; file descriptor pro stdin
-    mov ecx, buffer ; ukazatel na buffer
-    mov edx, 1 ; počet bytů k přečtení
+    ; Reading input from the keyboard
+    mov eax, 3 ; syscall for read
+    mov ebx, 0 ; file descriptor for stdin
+    mov ecx, buffer ; a pointer to a buffer
+    mov edx, 1 ; number of bytes to read
     int 0x80
 
-    ; Výpis vstupu na obrazovku
-    mov eax, 4 ; syscall pro write
-    mov ebx, 1 ; file descriptor pro stdout
-    mov ecx, buffer ; ukazatel na buffer
-    mov edx, 1 ; počet bytů k výpisu
+    ; Listing the input to the screen
+    mov eax, 4 ; syscall for write
+    mov ebx, 1 ; file descriptor for stdout
+    mov ecx, buffer ; a pointer to a buffer
+    mov edx, 1 ; number of apartments to list
     int 0x80
 
-    ; Ukončení programu
+    ; Ending the program
     mov eax, 1
     xor ebx, ebx
     int 0x80
