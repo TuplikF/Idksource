@@ -12,5 +12,5 @@ If you see something wrong please correct me in the Discussions.
 
 
 
-
-This work © 2 by TuplikF is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+This project is open-source. I would just like you to mention me (or our team) in your project. 
+Thank you with regards Tuplik_F
