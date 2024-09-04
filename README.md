@@ -13,4 +13,4 @@ If you see something wrong please correct me in the Discussions.
 
 
 This project is open-source. I would just like you to mention me (or our team) in your project. 
-Thank you with regards Tuplik_F
+Thank you with regards TuplikF
